@@ -6,7 +6,7 @@ echo "#################################"
 echo "#### Update bower ###############"
 echo "#################################"
 
-ORG=CartoDB
+ORG=SkyTruth
 REPO=cartodb.js-bower
 
 # prepare repo folder
