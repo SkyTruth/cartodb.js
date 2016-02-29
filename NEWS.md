@@ -1,6 +1,6 @@
-3.15.X (dd/mm/yyyy)
+3.15.8-skytruth-2 (29/02/2016)
 ------
-*
+* JSONP error handling
 
 3.15.8 (01/10/2015)
 ------
