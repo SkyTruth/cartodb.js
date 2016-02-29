@@ -10,8 +10,13 @@ var Loader = cdb.vis.Loader = cdb.core.Loader = {
       script.type = 'text/javascript';
       script.src = src;
       script.async = true;
-      script.onerror = function (err) {
-        vizjson();
+      script.onerror = function () {
+        window.vizjson();
+      };
+      script.onload = function () {
+        if (Loader._script == script) {
+          window.vizjson();
+        }
       };
       if (!Loader.head) {
         Loader.head = document.getElementsByTagName('head')[0];
@@ -70,4 +75,3 @@ window.vizjson = function(data) {
     Loader.get(a[0], a[1]);
   }
 };
-
