@@ -1,3 +1,7 @@
+3.15.8-skytruth-3 (29/02/2016)
+------
+* Better JSONP error handling
+
 3.15.8-skytruth-2 (29/02/2016)
 ------
 * JSONP error handling
