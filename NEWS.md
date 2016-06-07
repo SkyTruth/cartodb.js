@@ -1,3 +1,7 @@
+3.15.8-skytruth-4 (29/02/2016)
+------
+* Torque bugfix
+
 3.15.8-skytruth-3 (29/02/2016)
 ------
 * Better JSONP error handling
